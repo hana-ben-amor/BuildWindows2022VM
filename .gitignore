@@ -1,7 +1,6 @@
 # Cache objects
 packer_cache/
 output-virtualbox-iso/
-output-vmware-iso/
+output-windows2022/
 
-# For built boxes
-*.box
+
