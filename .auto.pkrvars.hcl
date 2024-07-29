@@ -1,5 +1,5 @@
-disk_size="5s"
-boot_wait="40960"
+disk_size="40960"
+boot_wait="5s"
 iso_checksum="4f1457c4fe14ce48c9b2324924f33ca4f0470475e6da851b39ccbf98f44e7852"
 // iso url link : https://software-static.download.prss.microsoft.com/sg/download/20348.169.210806-2348.fe_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso
 iso_url="file:///C:/Users/user/20348.169.210806-2348.fe_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso"
