@@ -29,16 +29,16 @@ build {
 
 source "virtualbox-iso" "windows2022" {
   guest_os_type        = "Windows2022_64"
-  vm_name              = var.vm_name
-  iso_url              = var.iso_url
-  iso_checksum         = var.iso_checksum
+  vm_name              = "${var.vm_name}"
+  iso_url              = "${var.iso_url}"
+  iso_checksum         = "${var.iso_checksum}"
   guest_additions_mode = "disable"
   headless             = false
-  boot_wait            = var.boot_wait
-  disk_size            = var.disk_size
+  boot_wait            = "${var.boot_wait}"
+  disk_size            = "${var.disk_size}"
   communicator         = "winrm"
-  winrm_username       = var.winrm_username
-  winrm_password       = var.winrm_password
+  winrm_username       = "${var.winrm_username}"
+  winrm_password       = "${var.winrm_password}"
   winrm_use_ssl        = true
   winrm_insecure       = true
   winrm_timeout        = "4h"
